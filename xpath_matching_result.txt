@@ -1,0 +1,36 @@
+XPath Matching Analysis
+=======================
+
+OLD HTML (Facebook_old.html)
+----------------------------
+Original XPath: /html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[9]/a[1]
+
+Element Details:
+- Text Content: "Pages"
+- Href: /web/20161101030329/https://www.facebook.com/directory/pages/
+- Title: Browse our pages directory.
+- Context: Footer navigation link
+
+NEW HTML (Facebook_new.html)
+----------------------------
+New XPath: /html[1]/body[1]/div[3]/div[2]/div[2]/div[1]/div[1]/div[2]/ul[1]/li[7]/a[1]
+
+Element Details:
+- Text Content: "Pages"
+- Href: /web/20201201011205/https://www.facebook.com/directory/pages/
+- Title: Browse our pages directory.
+- Context: Footer navigation link (same semantic location)
+
+Match Confidence: HIGH
+
+Reasoning:
+1. Exact text content match: "Pages"
+2. Exact title attribute match: "Browse our pages directory."
+3. Same semantic href (directory/pages), only timestamp differs
+4. Located in same semantic context (footer navigation)
+
+Structural Changes:
+- Old structure: div > table > tbody > tr > td[9] > a
+- New structure: div > ul > li[7] > a
+- The page footer was restructured from a table-based layout to a list-based layout
+- The 9th cell in the old table row corresponds to the 7th list item in the new structure
