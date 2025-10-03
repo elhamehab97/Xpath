@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en" dir="ltr"> <!--<![endif]-->
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=7YQSqjSh" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("https://www.okta.com/","20171102031615","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1509592575");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+	<meta charset="utf-8"/>
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta itemprop="acquia_lift:post_id" content="5586"/>
+<meta itemprop="acquia_lift:published_date" content="1438820564"/>
+<meta itemprop="acquia_lift:content_title" content="Home"/>
+<meta itemprop="acquia_lift:content_uuid" content="d1362a6c-5343-4a36-ad99-e3f85b85eb7b"/>
+<meta itemprop="acquia_lift:author" content="sasha"/>
+<meta itemprop="acquia_lift:content_keywords" content=""/>
+<meta itemprop="acquia_lift:content_section" content=""/>
+<meta itemprop="acquia_lift:content_type" content="home"/>
+<link rel="shortcut icon" href="https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/all/themes/Okta/favicon.ico" type="image/vnd.microsoft.icon"/>
+<meta itemprop="acquia_lift:page_type" content="node page"/>
+<meta itemprop="acquia_lift:userAccess" content=""/>
+<meta itemprop="acquia_lift:account_id" content="OKTA"/>
+<meta itemprop="acquia_lift:contentOrigin" content=""/>
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://lift3assets.lift.acquia.com/stable"/>
+<meta itemprop="acquia_lift:site_id" content="okta_prod"/>
+<meta itemprop="acquia_lift:contentReplacementMode" content="trusted"/>
+<meta name="description" content="Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta."/>
+<meta name="generator" content="Drupal 7 (http://drupal.org)"/>
+<link rel="canonical" href="https://web.archive.org/web/20171102031615/https://www.okta.com/"/>
+<link rel="shortlink" href="https://web.archive.org/web/20171102031615/https://www.okta.com/"/>
+<meta property="og:site_name" content="Okta"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://web.archive.org/web/20171102031615/https://www.okta.com/"/>
+<meta property="og:title" content="Okta | Always On"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:creator" content="@okta"/>
+<meta name="twitter:url" content="https://web.archive.org/web/20171102031615im_/https://www.okta.com/"/>
+<meta name="twitter:title" content="Okta | Always On"/>
+<meta name="twitter:description" content="Provide secure identity management and single sign-on to any application."/>
+	<title>Okta | Always On</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+	<!--[if lt IE 10]>
+	<link type="text/css" rel="stylesheet" href="/sites/all/themes/Okta/css/ie9.css" media="all" />
+	<![endif]-->
+	<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20171102031615cs_/https://www.okta.com/sites/default/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20171102031615cs_/https://www.okta.com/sites/default/files/css/css_Xpk53j-Nc2P37iqwC_o8vcolmpv-9dRNAmxcM_Ticsg.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20171102031615cs_/https://www.okta.com/sites/default/files/css/css_IqFtdlo0TqOdQJmhowcIHaUHqJ7jHF5iRluL9jin8ls.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20171102031615cs_/https://www.okta.com/sites/default/files/css/css_OHU5axcpSR_7SCwFn99fd5bCSCGgsig8E61VtbCJmmg.css" media="all"/>
+<link type="text/css" rel="stylesheet" href="https://web.archive.org/web/20171102031615cs_/https://www.okta.com/sites/default/files/css/css_K97Nw3aS4nu0eMlq99TZAzEelLDrfXlCxa8vZyZxIEM.css" media="all"/>
+	<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_a8MyAHRjajLu6SNTDzhm_ZUhUeIq_Ao6d-T9QrOU9BI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_wIw8dSJ_K3PIx8QvGtdm6e6ay0z1FU-z6rbKUJ08wHg.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_bYkKNL44pTTgU6i5l3hkUkmW_DCotYlWbTUmWeILXls.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_t98PjhO6SIRR8vx4h3A9Xw4T3lY8av-JsHgSaBunZOI.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://lift3assets.lift.acquia.com/stable/lift.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_sYsDTeWM01c44XQAiSqhGpnxgV0pS86mME2JwAVU8mg.js"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://cdn.polyfill.io/v2/polyfill.js?features=es6"></script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_sv_oGo8tBHhNfsvhxovDoGYcczUc80bwnMZi8D1T7PA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+//Bizible's analytics script http://bizible.com
+var _biz = _biz || [];
+function _bizl(u) {
+  var s = document.createElement('script');
+  var f = document.getElementsByTagName('script')[0];
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = document.location.protocol + u;
+  f.parentNode.insertBefore(s, f);
+}
+_bizl('//web.archive.org/web/20171102031615/https://cdn.bizible.com/_biz-a.js');
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://web.archive.org/web/20171102031615js_/https://www.okta.com/sites/default/files/js/js_1Q66SKquPY3_74Bau1NbpgCKomFEMyTyLoo56vE40_8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"Okta","theme_token":"XngZWS5uLwmyS1CY4cjGdpXnhlQRwHQuAiUfnsaN1fc","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"0":1,"sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.slider.min.js":1,"profiles\/lightning\/modules\/contrib\/media_preview_slider\/js\/slider.js":1,"sites\/all\/modules\/okta_certification\/js\/certification_master.js":1,"sites\/all\/modules\/okta_cvent\/js\/js.cookie.js":1,"sites\/all\/modules\/okta_cvent\/js\/okta_cvent.js":1,"sites\/all\/modules\/okta_geolocation\/js\/js.cookie.js":1,"sites\/all\/modules\/okta_geolocation\/js\/okta_geolocation.js":1,"sites\/all\/modules\/okta_forms\/okta_mql\/js\/okta_mql_sync.js":1,"sites\/all\/modules\/okta_myokta\/js\/okta_myokta.js":1,"sites\/all\/modules\/okta_oan\/js\/master.js":1,"profiles\/lightning\/modules\/contrib\/panels_preview\/js\/panels-preview-autosubmit.js":1,"profiles\/lightning\/modules\/contrib\/panels_preview\/js\/panels-preview-title.js":1,"profiles\/lightning\/modules\/contrib\/panels_preview\/js\/panels-preview-toggle.js":1,"https:\/\/web.archive.org\/web\/20171102031615\/https:\/\/lift3assets.lift.acquia.com\/stable\/lift.js":1,"profiles\/lightning\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/lightning\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/lightning\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"profiles\/lightning\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/jquery.waypoints\/lib\/jquery.waypoints.min.js":1,"https:\/\/web.archive.org\/web\/20171102031615\/https:\/\/cdn.polyfill.io\/v2\/polyfill.js?features=es6":1,"sites\/all\/themes\/Okta\/js\/prism.js":1,"1":1,"sites\/all\/themes\/Okta\/js\/bundle.js":1,"sites\/all\/themes\/Okta\/js\/better_exposed_filters.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.slider.css":1,"modules\/comment\/comment.css":1,"profiles\/lightning\/modules\/contrib\/date\/date_api\/date.css":1,"profiles\/lightning\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"profiles\/lightning\/modules\/contrib\/ember_support\/css\/ember-token.css":1,"profiles\/lightning\/modules\/contrib\/ember_support\/css\/ember-workbench.css":1,"modules\/field\/theme\/field.css":1,"profiles\/lightning\/modules\/contrib\/media_preview_slider\/css\/slider-styles.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/okta_businesses_at_work\/css\/okta_baw_master.css":1,"sites\/all\/modules\/okta_certification\/css\/okta_certification_master.css":1,"sites\/all\/modules\/okta_forms\/okta_mql\/css\/okta_mql.css":1,"sites\/all\/modules\/okta_oan\/css\/okta_oan_master.css":1,"profiles\/lightning\/modules\/contrib\/panels_preview\/css\/panels-preview.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"profiles\/lightning\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"profiles\/lightning\/modules\/contrib\/entity_embed\/css\/entity_embed.css":1,"profiles\/lightning\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"profiles\/lightning\/modules\/contrib\/ctools\/css\/ctools.css":1,"profiles\/lightning\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/acquia_lift\/css\/acquia_lift.css":1,"sites\/all\/themes\/Okta\/css\/style.css":1,"sites\/all\/themes\/Okta\/views.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"okta_geolocation":{"loaded":"false","nl":["NL"],"eu":["AT","BE","BG","CY","CZ","DK","EE","FI","FR","DE","GR","HR","HU","IE","IT","LV","LT","LU","MT","NL","PL","PT","RO","SK","SI","ES","SE","GB"],"emea":["DZ","BH","BY","BE","BA","CY","EG","FI","FR","DE","GH","GG","IE","IM","IT","JO","KZ","KE","KW","LB","LI","LU","MT","MC","MA","NL","NG","OM","PK","PL","QA","RU","ZA","ES","SE","CH","SY","TN","TR","UA","AE","GB"],"apac":["AF","AM","AU","AZ","BD","BN","BT","CC","CN","CX","GE","HK","ID","IL","IN","IO","IQ","IR","JP","KG","KH","KP","KR","LA","LK","MM","MN","MO","MV","MY","NP","NZ","PH","PS","SA","SG","TH","TJ","TL","TM","TW","UZ","VN","YE"]},"okta_swiftype":{"slug":"okta-production","key":"UjgmgHD2a6s_JcZECqAY"},"currentPath":"node\/5586","currentPathIsAdmin":false});
+//--><!]]>
+</script>
+  <script src="https://web.archive.org/web/20171102031615js_/https://use.typekit.net/osg6paw.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<!--[if lt IE 9]>
+	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	  <![endif]-->
+	  	  <script type="text/javascript"> 
+setTimeout(function(){var a=document.createElement("script"); 
+var b=document.getElementsByTagName("script")[0]; 
+a.src=document.location.protocol+"//web.archive.org/web/20171102031615/https://script.crazyegg.com/pages/scripts/0021/9333.js?"+
+Math.floor(new Date().getTime()/3600000); 
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1); 
+</script>	  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//web.archive.org/web/20171102031615/https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TJ45R6');</script>
+<!-- End Google Tag Manager -->	  <script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('380-NLU-416');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//web.archive.org/web/20171102031615/https://munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>	</head>
+	<body class="html front not-logged-in no-sidebars page-node page-node- page-node-5586 node-type-home">
+		<noscript><iframe src="https://web.archive.org/web/20171102031615if_/https://www.googletagmanager.com/ns.html?id=GTM-TJ45R6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+
+	<!--[if lt IE 10]>
+	<div class="FullPageNotice--browserUpgrade">
+		<div>
+			<div class="Logo">Okta</div>
+			<p>You are using an outdated browser. Please <a target="_blank" href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		</div>
+	</div>
+	<![endif]-->
+
+	<noscript>
+		<div class="FullPageNotice--javascriptRequired">
+			<div>
+				<div class="Logo">Okta</div>
+				<p>Looks like you have Javascript turned off! Please enable it to improve your browsing experience.</p>
+			</div>
+		</div>
+	</noscript>
+
+		<header class="Header">
+	<div class="Wrap">
+
+		<h1 class="Header-logo">
+			<a href="/web/20171102031615/https://www.okta.com/">Okta</a>
+		</h1>
+				<div class="Header-media-assets">
+			<h4 class="Kicker blue-bright">Looking for Okta Logos?</h4>
+			<p>You can find all the media assets you need as part of our press room.</p>
+			<p><a href="/web/20171102031615/https://www.okta.com/press-room/media-assets/" class="Button">Download Media Assets</a></p>
+		</div>
+		
+
+		<nav class="Header-nav PrimaryNav">
+      <ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/customers/">Customers</a></li>
+<li class="expanded"><a href="/web/20171102031615/https://www.okta.com/solutions/" title="">Solutions</a><ul class="menu"><li class="first expanded"><span class="nolink">Business Initiatives</span><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/protect-against-data-breaches/">Protect Against Data Breaches</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/secure-seamless-customer-experience/">Secure, Seamless Customer Experience</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/collaborate-with-partners/">Collaborate with Partners</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/enable-mobile-workforce/">Enable a Mobile Workforce</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/reduce-it-friction/">Reduce IT Friction</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/build-cloud-and-mobile-IT/">Build 100% Cloud and Mobile IT</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/increase-mergers-and-acquisitions-agility/">Increase M&amp;A Agility</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/modernize-enterprise-it/">Modernize Enterprise IT</a></li>
+</ul></li>
+<li class="expanded"><span class="nolink">Industries</span><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/healthcare/">Healthcare</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/government/">Government</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/education/">Education</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/energy/">Energy</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/financial-services/">Financial Services</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/technology/">Technology</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/okta-for-good/">Nonprofit</a></li>
+</ul></li>
+<li class="last leaf is-highlighted"><a href="/web/20171102031615/https://www.okta.com/solutions/">View all solutions</a></li>
+</ul></li>
+<li class="expanded"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/">Products</a><ul class="menu"><li class="first expanded"><a href="/web/20171102031615/https://www.okta.com/products/it/">Okta IT Products</a><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/products/single-sign-on/">Single Sign-On</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/adaptive-multi-factor-authentication/">Multi-Factor Authentication</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/mobility-management/">Mobility Management</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/lifecycle-management/">Lifecycle Management</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/universal-directory/">Universal Directory</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/products/api-access-management/">API Access Management</a></li>
+</ul></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/developer">Okta API Products</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/okta-integration-network/">Okta Integration Network</a></li>
+<li class="last leaf is-highlighted"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/">View all products</a></li>
+</ul></li>
+<li class="expanded"><a href="/web/20171102031615/https://www.okta.com/services/">Services</a><ul class="menu"><li class="first expanded"><a href="/web/20171102031615/https://www.okta.com/services/training-and-certification/">Training &amp; Certification</a><ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/services/training-and-certification">Overview</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/services/hands-on-training">Hands-on training</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/services/certification">Certification</a></li>
+<li class="last leaf"><a href="https://web.archive.org/web/20171102031615/http://okta.litmos.com/online-courses" target="_blank">Basic training</a></li>
+</ul></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/support/">Support</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/find-a-channel-partner/">Find a Channel Partner</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/professional-services/">Professional Services</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/adoption-services/">Adoption Services</a></li>
+<li class="expanded"><a href="/web/20171102031615/https://www.okta.com/services/self-service/">Self Service</a><ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/services/self-service">Overview</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/self-service/community/">Community</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/services/self-service/user-groups/">User groups</a></li>
+</ul></li>
+<li class="last leaf is-highlighted"><a href="/web/20171102031615/https://www.okta.com/services/">View all services</a></li>
+</ul></li>
+<li class="expanded"><a href="/web/20171102031615/https://www.okta.com/resources/">Resources</a><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/resources/find-your-apps/">Find Your Apps</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/resources/content-library/">Content Library</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/businesses-at-work/">Businesses @ Work Dashboard</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/resources/events/">Events</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/resources/customer-success-center/">Customer Success Center</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/blog">Blog</a></li>
+<li class="last leaf is-highlighted"><a href="/web/20171102031615/https://www.okta.com/resources/">View all resources</a></li>
+</ul></li>
+<li class="expanded"><a href="/web/20171102031615/https://www.okta.com/company/">Company</a><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/contact/">Contact</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/partners/">Partners</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/company/leadership/">Leadership</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://investor.okta.com/">Investors</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/company/vision/">Vision</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/company/careers/">Careers</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/faq/">FAQ</a></li>
+<li class="last leaf is-highlighted"><a href="/web/20171102031615/https://www.okta.com/company/">View company</a></li>
+</ul></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/contact-sales/">Contact Sales</a></li>
+</ul>		</nav>
+
+		<div class="Header-tryOkta">
+			<a class="Button--green" href="/web/20171102031615/https://www.okta.com/start-with-okta/">
+				Try Okta
+			</a>
+		</div>
+
+		<div class="Header-user">
+
+			<a class="Button--blueOutline" id="myokta-signin" href="https://web.archive.org/web/20171102031615/https://login.okta.com/?SAMLRequest=fc%2B7CsJAEAXQXvAflu1NNJUMeZBGELTx1a%2FrYILJTtyZGD%2FfSBRiYzlw77lMnD3rSj3Qc0ku0YtgrhU6S5fSXRN9PKxmS52l00nMpq6iBvJWCrfDe4ss6vStRe9aDzmGIZfo1jsgwyWDMzUyiIV9vt1AH4XGk5ClSvewUgMNa%2BYW%2FVj5jxhm9NLP67QQaSAMu64L6CYmsFSHlnzT4ZlLwTgcL6Sf8%2FeX9AU%3Dhttps://login.okta.com/?SAMLRequest=fc%2B7CsJAEAXQXvAflu1NNJUMeZBGELTx1a%2FrYILJTtyZGD%2FfSBRiYzlw77lMnD3rSj3Qc0ku0YtgrhU6S5fSXRN9PKxmS52l00nMpq6iBvJWCrfDe4ss6vStRe9aDzmGIZfo1jsgwyWDMzUyiIV9vt1AH4XGk5ClSvewUgMNa%2BYW%2FVj5jxhm9NLP67QQaSAMu64L6CYmsFSHlnzT4ZlLwTgcL6Sf8%2FeX9AU%3D">Sign In</a>
+		</div>
+
+		<a class="Header-search Button--search" id="searchToggle" href="#">
+			<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewbox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M15.3996653,14.6678682 L11.4569357,10.7244483 C12.3730629,9.64217101 12.9267433,8.24255145 12.9267433,6.71337171 C12.9267433,3.28220976 10.1445336,0.5 6.71337171,0.5 C3.28220976,0.5 0.5,3.28220976 0.5,6.71337171 C0.5,10.1445336 3.28220976,12.9267433 6.71337171,12.9267433 C8.24255145,12.9267433 9.64217101,12.3730629 10.7244483,11.4569357 L14.6669477,15.3996653 C14.8011105,15.5335979 15.02134,15.5335979 15.1552727,15.3996653 L15.3987447,15.1561932 C15.5335979,15.02134 15.5335979,14.8018009 15.3996653,14.6678682 L15.3996653,14.6678682 L15.3996653,14.6678682 Z M1.53556193,6.71337171 C1.53556193,3.85844245 3.85844245,1.53556193 6.71337171,1.53556193 C9.56830086,1.53556193 11.8911814,3.85844245 11.8911814,6.71337171 C11.8911814,9.56830086 9.56830086,11.8911814 6.71337171,11.8911814 C3.85844245,11.8911814 1.53556193,9.56830086 1.53556193,6.71337171 L1.53556193,6.71337171 L1.53556193,6.71337171 Z" id="Page-1-Copy" stroke="#007BC4" fill="#007BC4"></path>
+    </g>
+</svg>
+		</a>
+
+		<a class="Header-toggle" href="#">
+			<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewbox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g class="MenuIcon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <path d="M1,16 L19,16" class="MenuIcon-line1" stroke="#007BC4" stroke-width="2"></path>
+        <path d="M1,4 L19,4" class="MenuIcon-line2" stroke="#007BC4" stroke-width="2"></path>
+        <path d="M1,10 L19,10" class="MenuIcon-line3" stroke="#007BC4" stroke-width="2"></path>
+        <path d="M1,10 L19,10" class="MenuIcon-line4" stroke="#007BC4" stroke-width="2"></path>
+    </g>
+</svg>
+		</a>
+
+	</div>
+</header>
+
+<form class="SearchBar" id="searchForm" action="/web/20171102031615/https://www.okta.com/search/">
+	<div class="Wrap">
+
+		<input type="search" name="query" placeholder="Search for anything" value="">
+		<button class="Button--disabled">Search</button>
+
+	</div>
+</form>
+
+<div id="content" class="container">
+  <header class=".l-header">
+      </header>
+  <!--/.l-header -->
+
+  
+  
+  <a id="main-content"></a>
+
+  
+    
+      
+      
+    <div class="HeroWrap"><section class="contextual-links-region">
+
+<header class="Hero--home Hero--home-security-comes-standard" style="background-image:url(https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/security-iphone.png);">
+	<div class="Wrap">
+
+  	
+				<h1 class="Hero-title">Security comes standard</h1>
+		
+				<p class="Hero-subtitle">Two-factor is now included for all SSO customers</p>
+		
+    		<div class="Hero-cta">
+			<a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/single-sign-on/?utm_source=website&amp;utm_medium=hero" class="Button--large Button--whiteOutline">Learn More</a>		</div>
+		
+	</div>
+</header>
+</section>
+</div><section class="PageSection--quickLinks">
+	<div class="Wrap">
+		<div class="Row u-stretch">
+
+			<div class="Column--3 Column--large-6 Column--medium-12 u-flex u-stretch"><div class="QuickLinksGridBlock"><div class="QuickLinksGridBlock-content"><h3 class="QuickLinksGridBlock-title">Okta for Good</h3><p class="QuickLinksGridBlock-description">The new Okta for Good Fund strengthens the connections between people, technology, and community.</p><a class="QuickLinksGridBlock-link " href="https://web.archive.org/web/20171102031615/https://www.okta.com/okta-for-good?utm_source=website&amp;utm_medium=resource-block">Learn how</a></div></div></div><div class="Column--3 Column--large-6 Column--medium-12 u-flex u-stretch"><div class="QuickLinksGridBlock"><div class="QuickLinksGridBlock-content"><h3 class="QuickLinksGridBlock-title">Okta Integration Network</h3><p class="QuickLinksGridBlock-description">Securely connect to anything with more than 5,000 pre-built integrations with applications, infrastructure, and devices.</p><a class="QuickLinksGridBlock-link " href="https://web.archive.org/web/20171102031615/https://www.okta.com/okta-integration-network?utm_source=website&amp;utm_medium=resource-block">Start integrating</a></div></div></div><div class="Column--3 Column--large-6 Column--medium-12 u-flex u-stretch"><div class="QuickLinksGridBlock"><div class="QuickLinksGridBlock-content"><h3 class="QuickLinksGridBlock-title">Businesses @ Work</h3><p class="QuickLinksGridBlock-description">Analyze trends in app adoption across industries and different company sizes with our new Businesses @ Work Dashboard.</p><a class="QuickLinksGridBlock-link " href="https://web.archive.org/web/20171102031615/https://www.okta.com/businesses-at-work?utm_source=website&amp;utm_medium=resource-block">Explore the data</a></div></div></div><div class="Column--3 Column--large-6 Column--medium-12 u-flex u-stretch"><div class="QuickLinksGridBlock"><div class="QuickLinksGridBlock-content"><h3 class="QuickLinksGridBlock-title">Responding to Insider Threats</h3><p class="QuickLinksGridBlock-description">Join Okta + Code 42 to learn how to achieve an end-to-end solution for data security in the Cloud.</p><a class="QuickLinksGridBlock-link " href="https://web.archive.org/web/20171102031615/http://pages.okta.com/2017-11-WBN-Okta-InsiderThreatsAuthDataCode42-NA-Security-Parent_01-RegLP.html?cid=2017-11-WBN-Okta-InsiderThreatsAuthDataCode42-NA-Security-WBS">Join the discussion</a></div></div></div>		</div>
+	</div>
+</section>
+
+<section class="contextual-links-region">
+
+<section class="PageSection--cta is-darkBackground is-leftAligned has-image">
+	<div class="Wrap">
+
+		<div class="Row--wideGutters">
+			<div class="Column--7 Column--medium-12">
+
+				
+								<h3 class="PageSection-title">Okta is The Identity Cloud</h3>
+				
+				
+								<div class="PageSection-content">
+					<p>Millions of people rely on Okta to securely connect to the technologies and services that let them do their most important work.</p>
+				</div>
+				
+								<div class="PageSection-cta">
+					<a href="https://web.archive.org/web/20171102031615/http://www.okta.com/products/" class="Button--whiteOutline">Explore our products</a>				</div>
+				
+			</div>
+
+						<div class="Column--5 Column--medium-8 ColumnOffset--medium-2 Column--small-12 ColumnOffset--small-0">
+
+					          <div class="PageSection-image is-svg">
+            <img src="https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/CloudIdentityAura.svg">
+            <?xml version="1.0" encoding="utf-8"?>
+<svg id="IdentityCloudAuraSVG" width="700px" height="470px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveaspectratio="xMinYMin meet" viewbox="0 0 700 470" style="enable-background:new 0 0 700 470;" data-animate-enter="true" data-animate-exit="true">
+	<g>
+		<path id="IdentityCloudAuraSVG_fullCloud" d="M502.1,131.5c-3.6,0-7.1,0.2-10.6,0.6c0-0.1-0.1-0.3-0.1-0.4c-48.6,5.1-86.4,46.2-86.4,96.1
+			c0-49.9,37.8-91,86.4-96.1c-9.4-34.7-31.3-64.3-60.3-84C359.1,75.8,308,145.9,308,227.8c0,0,0,0,0,0c0-81.9,51.1-152,123.1-180.1
+			c-23.7-16-52.1-25.3-82.8-25.3c-67.6,0-124.6,45.3-142.4,107.2c-4.2-0.7-8.6-1.1-13-1.1c-42.1,0-76.2,34.1-76.3,76.2
+			C84.8,206.1,59,232.2,59,264.3c0,33,26.8,59.7,59.2,59.7h215.8h158.2h9.9v0c0,0,0.1,0,0.3,0c53.1,0,96.1-43.1,96.1-96.2
+			C598.4,174.6,555.2,131.5,502.1,131.5z" fill="#FFFFFF"/>
+		<path id="IdentityCloudAuraSVG_cloudPart" d="M431.2,47.7c-23.7-16-52.2-25.3-82.9-25.3c-67.6,0-124.7,45.3-142.5,107.2
+			c-4.2-0.7-8.6-1.1-13-1.1c-42.1,0-76.2,34.1-76.3,76.2C84.8,206.1,59,232.2,59,264.3c0,33,26.8,59.7,59.2,59.7l0,0h215.8
+			c-16.3-29-25.6-61.2-25.6-96.2C308.3,145.9,359.3,75.8,431.2,47.7z" fill="#FFFFFF"/>
+		<path id="IdentityCloudAuraSVG_circle" d="M405,227.8c0,50.2,38.2,91.2,87.2,96.2h9.9v0c0,0,0.1,0,0.3,0c53.1,0,96.1-43.1,96.1-96.2
+			s-43.2-96.2-96.3-96.2c-3.6,0-7.1,0.2-10.6,0.6c0-0.1-0.1-0.3-0.1-0.4C442.8,136.8,405,177.9,405,227.8z" fill="#FFFFFF"/>
+		<path id="IdentityCloudAuraSVG_finalAura" d="M405,227.8c0-49.9,37.8-91,86.4-96.1c-9.4-34.7-31.1-64.3-60.1-84
+			c-71.9,28.1-122.9,98.2-122.9,180.1c0,35,9.3,67.2,25.6,96.2h158.2C443.2,319,405,278,405,227.8z" fill="#5FBCEA"/>
+		<path id="IdentityCloudAuraSVG_initialAura" d="M499.8,415.1c104.3,0,189-84.6,189-189c0-104.3-84.6-188.9-189-188.9s-189,84.6-189,188.9
+			C310.8,330.5,395.4,415.1,499.8,415.1 M499.8,131.6c52.2,0,94.5,42.3,94.5,94.5c0,52.2-42.3,94.5-94.5,94.5s-94.5-42.3-94.5-94.5
+			C405.3,173.9,447.6,131.6,499.8,131.6" fill="#FFFFFF"/>
+	</g>
+</svg>
+          </div>
+					
+			</div>
+			
+		</div>
+
+	</div>
+
+	</section>
+</section>
+<section class="contextual-links-region">
+
+<section class="PageSection--cta is-darkBackground is-leftAligned">
+	<div class="Wrap">
+
+		<div class="Row--wideGutters">
+			<div class="Column--7 Column--medium-12">
+
+				
+								<h3 class="PageSection-title">Start with Okta. Go anywhere</h3>
+				
+				
+								<div class="PageSection-content">
+					<p>Anything is possible in the Okta Identity Cloud. Employees are productive, partners engaged, customers delighted.</p>
+				</div>
+				
+								<div class="PageSection-cta">
+					<a href="https://web.archive.org/web/20171102031615/http://www.okta.com/solutions/" class="Button--whiteOutline">Explore our solutions</a>				</div>
+				
+			</div>
+
+			
+		</div>
+
+	</div>
+
+	<div class="PageSection-background" style="background-image:url('https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/bg--solutions-1600.jpg');"></div></section>
+</section>
+<section class="contextual-links-region">
+
+<section class="PageSection--featuredCustomers">
+	<div class="Wrap">
+
+				<h3 class="PageSection-title" style="text-align:center;">Thousands of customers have embarked on the Okta journey</h3>
+		
+		<div class="Row u-Stretch">
+
+						<div class="Column--4 Column--medium-12 u-Flex u-Stretch">
+
+				<a class="FeaturedCustomerBlock has-leftAura" href="/web/20171102031615/https://www.okta.com/customers/news-corp/">
+
+					<div class="FeaturedCustomerBlock-bg" style="background-image:url(https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/aura/News_Corp_03_aura_sm.jpg);">
+						<img src="https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/logo/news_corp_white_1.png">
+					</div>
+
+					<div class="FeaturedCustomerBlock-content">
+						<p class="h5">Enabling global collaboration and rapid growth</p>
+						<p><span class="Button--blueOutline">Learn more</span></p>
+					</div>
+
+				</a>
+
+			</div>
+						<div class="Column--4 Column--medium-12 u-Flex u-Stretch">
+
+				<a class="FeaturedCustomerBlock" href="/web/20171102031615/https://www.okta.com/customers/pitney-bowes/">
+
+					<div class="FeaturedCustomerBlock-bg" style="background-image:url(https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/aura/Pitney_Bowes_Aura.jpg);">
+						<img src="https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/logo/pitney_bowes_white_1.png">
+					</div>
+
+					<div class="FeaturedCustomerBlock-content">
+						<p class="h5">Securing access to APIs in the Pitney Bowes Commerce Cloud</p>
+						<p><span class="Button--blueOutline">Learn more</span></p>
+					</div>
+
+				</a>
+
+			</div>
+						<div class="Column--4 Column--medium-12 u-Flex u-Stretch">
+
+				<a class="FeaturedCustomerBlock has-rightAura" href="/web/20171102031615/https://www.okta.com/customers/flex/">
+
+					<div class="FeaturedCustomerBlock-bg" style="background-image:url(https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/aura/Flex_Aura.jpg);">
+						<img src="https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/images/customer/logo/Flex_Logo-White_0.png">
+					</div>
+
+					<div class="FeaturedCustomerBlock-content">
+						<p class="h5">Building an intelligent, connected world</p>
+						<p><span class="Button--blueOutline">Learn more</span></p>
+					</div>
+
+				</a>
+
+			</div>
+			
+		</div>
+
+	</div>
+</section>
+</section>
+<section class="contextual-links-region">
+
+<section class="PageSection--cta is-lightBackground is-centerAligned">
+	<div class="Wrap">
+
+		<div class="Row--wideGutters">
+			<div class="Column--7 Column--medium-12">
+
+								<p class="PageSection-kicker">Last 12 Months</p>
+				
+								<h3 class="PageSection-title">99.97% uptime</h3>
+				
+				
+								<div class="PageSection-content">
+					<p>Identity is Always On, and so are we. We built the Okta service for high availability and a guaranteed uptime.</p>
+				</div>
+				
+								<div class="PageSection-cta">
+					<a href="https://web.archive.org/web/20171102031615/https://trust.okta.com/" class="Button--blueOutline">See our stats</a>				</div>
+				
+			</div>
+
+			
+		</div>
+
+	</div>
+
+	<div class="PageSection-background" style="background-image:url('https://web.archive.org/web/20171102031615im_/https://www.okta.com/sites/default/files/bg--uptime-aura.jpg');"></div></section>
+</section>
+  
+  
+    
+  <aside class="TrendingTopics">
+  <div class="Wrap">
+
+        <section class="block block-menu">
+  
+        <h2>Trending Topics:</h2>
+    
+    <ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/how-cloud-based-identity-and-access-management-enables-digital-business/">Enable Digital Business with IAM</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/whitepaper-a-modern-cloud-service-for-secure-digital-experiences/">A Cloud Service for Secure Digital Experiences</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/eguide-office365-adoption/">Office 365 Adoption eGuide</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/whitepaper-consumer-identity-management-for-the-cmo-ciso-and-cio/">Consumer Identity Management</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/whitepaper-top-5-reasons-to-automate-identity-lifecycle/">Automate Identity Lifecycle</a></li>
+<li class="last leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/whitepaper-okta-vs-adfs/">Okta vs. ADFS</a></li>
+</ul>  
+  </section>
+  </div>
+</aside>
+
+<footer class="Footer">
+  <div class="Wrap">
+
+    <div class="Footer-nav">
+        <section class="block block-menu">
+  
+        <h2>Quick Links</h2>
+    
+    <ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/partners/">Partners</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/pricing/">Pricing</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/company/careers/">Careers</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/services/support/">Support</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/press-room/">Press Room</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://trust.okta.com/">Trust</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/blog/">Blog</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/contact/">Contact Us</a></li>
+</ul>  
+  </section><section class="block block-menu">
+  
+      
+    <ul class="menu"><li class="first expanded"><a href="/web/20171102031615/https://www.okta.com/solutions/">Solutions</a><ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/protect-against-data-breaches">Protect Against Data Breaches</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/secure-seamless-customer-experience">Secure, Seamless Customer Experience</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/collaborate-with-partners">Collaborate with Partners</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/enable-mobile-workforce">Enable a Mobile Workforce</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/reduce-it-friction">Reduce IT Friction</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/solutions/increase-mergers-and-acquisitions-agility">Increase M&amp;A Agility</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/solutions/">View All ›</a></li>
+</ul></li>
+<li class="last expanded"><a href="/web/20171102031615/https://www.okta.com/resources/">Resources</a><ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/content-library/?type=white_paper">Whitepapers</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/content-library/?type=analyst_research">Analyst Research</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/resources/content-library/?type=webinars_on_demand">Webinars</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/businesses-at-work/">Businesses @ Work Dashboard</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/resources/events/">Events</a></li>
+</ul></li>
+</ul>  
+  </section><section class="block block-menu">
+  
+      
+    <ul class="menu"><li class="first last expanded"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/">Products</a><ul class="menu"><li class="first expanded"><a href="/web/20171102031615/https://www.okta.com/products/it/">Okta IT Products</a><ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/products/single-sign-on/">Single Sign-On</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/adaptive-multi-factor-authentication/">Multi-Factor Authentication</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/mobility-management/">Mobility Management</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/products/lifecycle-management/">Lifecycle Management</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/products/universal-directory/">Universal Directory</a></li>
+</ul></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/products/developer">Okta API Products</a></li>
+<li class="last leaf"><a href="/web/20171102031615/https://www.okta.com/okta-integration-network/">Okta Integration Network</a></li>
+</ul></li>
+</ul>  
+  </section>    </div>
+
+    <div class="Footer-copyright">
+        <section class="block block-block">
+  
+      
+    <p>© 2017 Okta, Inc. All Rights Reserved. Various trademarks held by their respective owners.</p>
+  
+  </section><section class="block block-menu">
+  
+      
+    <ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/privacy-policy/">Privacy</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/security/">Security</a></li>
+<li class="leaf"><a href="/web/20171102031615/https://www.okta.com/faq/">FAQ</a></li>
+<li class="last leaf"><a href="https://web.archive.org/web/20171102031615/http://developer.okta.com/">Visit our Developer Site</a></li>
+</ul>  
+  </section><section class="block block-menu LanguageSwitcher">
+  
+        <h2>Select Language</h2>
+    
+    <ul class="menu"><li class="first leaf"><a href="/web/20171102031615/https://www.okta.com/" class="active">English</a></li>
+<li class="last leaf"><a href="https://web.archive.org/web/20171102031615/https://www.okta.com/fr/">French</a></li>
+</ul>  
+  </section><section class="block block-menu SocialIcons">
+  
+      
+    <ul class="menu"><li class="first leaf"><a href="https://web.archive.org/web/20171102031615/https://twitter.com/okta" class="SocialIcons-twitter">Twitter</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.facebook.com/OktaIdentity/" class="SocialIcons-facebook">Facebook</a></li>
+<li class="leaf"><a href="https://web.archive.org/web/20171102031615/https://www.linkedin.com/company/okta-inc-/" class="SocialIcons-linkedin">LinkedIn</a></li>
+<li class="last leaf"><a href="https://web.archive.org/web/20171102031615/https://www.youtube.com/user/OktaInc" class="SocialIcons-youtube">Youtube</a></li>
+</ul>  
+  </section>    </div>
+
+  </div>
+</footer>
+
+
+  </div><!-- .container -->
+			<!-- Vimeo Google Analytics Tracking -->
+<!--
+ * vimeo.ga.js | v0.6
+ * Based on modifications by LukasBeaton (https://github.com/LukasBeaton/vimeo.ga.js)
+ * Copyright (c) 2015 Sander Heilbron (http://www.sanderheilbron.nl)
+ * MIT licensed
+-->
+
+<script>var vimeoGAJS=window.vimeoGAJS?window.vimeoGAJS:{};!function(e){var r={iframes:[],gaTracker:void 0,eventMarker:{},init:function(){r.initIframes(),"function"==typeof ga&&(r.gaTracker="ua"),"undefined"!=typeof _gaq&&"function"==typeof _gaq.push&&(r.gaTracker="ga"),"undefined"!=typeof dataLayer&&"function"==typeof dataLayer.push&&(r.gaTracker="gtm"),window.addEventListener?window.addEventListener("message",r.onMessageReceived,!1):window.attachEvent("onmessage",r.onMessageReceived,!1)},initIframes:function(){r.iframes=e("iframe"),r.iframes=e.grep(r.iframes,function(t,a){var n=e(t).attr("id");return void 0===n?!1:r.eventMarker[n]?!0:(r.eventMarker[n]={progress25:!1,progress50:!1,progress75:!1,videoPlayed:!1,videoPaused:!1,videoResumed:!1,videoSeeking:!1,videoCompleted:!1,timePercentComplete:0},!0)})},onMessageReceived:function(t){if("https://web.archive.org/web/20171102031615/http://player.vimeo.com"===t.origin.replace("https:","http:")&&"undefined"!=typeof r.gaTracker){var a=JSON.parse(t.data),n=e("#"+a.player_id),i=n.attr("id");if(void 0===i)return!1;switch(a.event){case"ready":r.initIframes(),r.onReady();break;case"playProgress":r.onPlayProgress(a.data,n);break;case"seek":a&&!r.eventMarker[i].videoSeeking&&(r.sendEvent(n,"Skipped video forward or backward"),r.eventMarker[i].videoSeeking=!0);break;case"play":r.eventMarker[i].videoPlayed?!r.eventMarker[i].videoResumed&&r.eventMarker[i].videoPaused&&(r.sendEvent(n,"Resumed video"),r.eventMarker[i].videoResumed=!0):(r.sendEvent(n,"Started video"),r.eventMarker[i].videoPlayed=!0);break;case"pause":r.onPause(n);break;case"finish":r.eventMarker[i].videoCompleted||(r.sendEvent(n,"Completed video"),r.eventMarker[i].videoCompleted=!0)}}},getUrl:function(e){return e},post:function(t,a,n){var i={method:t};a&&(i.value=a);var o=e(n).attr("src");o&&null!==o.match(/player.vimeo.com/)&&(iframeSrcArr=o.split("?"),o=iframeSrcArr[0]?iframeSrcArr[0]:iframeSrcArr,n.contentWindow.postMessage(JSON.stringify(i),r.getUrl(o)))},onReady:function(){e.each(r.iframes,function(e,t){r.post("addEventListener","play",t),r.post("addEventListener","seek",t),r.post("addEventListener","pause",t),r.post("addEventListener","finish",t),r.post("addEventListener","playProgress",t)})},onPause:function(e){var t=e.attr("id");r.eventMarker[t].timePercentComplete<99&&!r.eventMarker[t].videoPaused&&(r.sendEvent(e,"Paused video"),r.eventMarker[t].videoPaused=!0)},onPlayProgress:function(e,t){var a,n=t.attr("id");r.eventMarker[n].timePercentComplete=Math.round(100*e.percent),r.eventMarker[n].timePercentComplete>24&&!r.eventMarker[n].progress25&&(a="Played video: 25%",r.eventMarker[n].progress25=!0),r.eventMarker[n].timePercentComplete>49&&!r.eventMarker[n].progress50&&(a="Played video: 50%",r.eventMarker[n].progress50=!0),r.eventMarker[n].timePercentComplete>74&&!r.eventMarker[n].progress75&&(a="Played video: 75%",r.eventMarker[n].progress75=!0),a&&r.sendEvent(t,a)},sendEvent:function(e,t){var a=e.attr("src").split("?")[0],n=e.data("bounce");switch(r.gaTracker){case"gtm":dataLayer.push({event:"Vimeo",eventCategory:"Vimeo",eventAction:t,eventLabel:r.getUrl(a),eventValue:void 0,eventNonInteraction:n?!1:!0});break;case"ua":ga("send","event","Vimeo",t,r.getUrl(a),void 0,{nonInteraction:n?0:1});break;case"ga":_gaq.push(["_trackEvent","Vimeo",t,r.getUrl(a),void 0,n?!1:!0])}}};e(function(){r.init(),r.onReady()})}(jQuery);</script>
+<!-- Vimeo Google Analytics Tracking -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"6b6b9528d6","applicationID":"51793125","transactionName":"NV0EN0oCW0IFB0JRWgwXMxFRTFxfAAFOFkUKSA==","queueTime":0,"applicationTime":53,"atts":"GRoHQQIYSEw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!--
+     FILE ARCHIVED ON 03:16:15 Nov 02, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:23:23 Feb 06, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 6.197
+  exclusion.robots: 5.251
+  exclusion.robots.policy: 0.035
+  esindex: 0.012
+  cdx.remote: 5.068
+  LoadShardBlock: 531.376 (6)
+  PetaboxLoader3.datanode: 348.002 (7)
+  PetaboxLoader3.resolve: 213.371 (2)
+  load_resource: 168.147
+-->
